@@ -6,6 +6,7 @@ import vision from "../imgs/vision.png";
 import aboutImage from "../imgs/products.png";
 import UpBtn from "../UpBtn/UpBtn";
 import premium from "../imgs/logo2.png";
+import { useEffect } from "react";
 
 const AboutUs = () => {
   const premiumData = [
@@ -26,6 +27,9 @@ const AboutUs = () => {
     },
   ];
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="about">
       <Information />

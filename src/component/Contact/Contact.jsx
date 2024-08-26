@@ -5,8 +5,12 @@ import Footer from "../Footer/Footer";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
+import { useEffect } from "react";
 
 function ContactUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="contact-holder">
       <Information />

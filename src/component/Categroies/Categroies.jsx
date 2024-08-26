@@ -6,9 +6,15 @@ import Footer from "../Footer/Footer";
 import catLogo from "../imgs/logo2.png";
 import product from "../imgs/abuheiba.png";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import "animate.css";
 
 const Categroies = () => {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const CategoriesData = [
     {
@@ -174,12 +180,20 @@ const Categroies = () => {
       <div className="categories-holder">
         {CategoriesData?.map((c) => (
           <div className="category" key={c.id}>
-            <img src={c.logo} alt="" className="category-logo" />
+            <img
+              src={c.logo}
+              alt=""
+              className="category-logo animate__animated animate__backInDown"
+            />
             <h1>{c.catName}</h1>
             <div className="category-product">
               {c.prodcuts.map((catproduct) => (
                 <div key={catproduct.id} className="catPro">
-                  <img src={catproduct.img} alt="" className="product-logo" />
+                  <img
+                    src={catproduct.img}
+                    alt=""
+                    className="product-logo animate__animated animate__bounce"
+                  />
                   <h2>{catproduct.productName}</h2>
                   <h3>{catproduct.productPrice}</h3>
                 </div>

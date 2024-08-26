@@ -7,12 +7,16 @@ import Abuheiba from "../AbuHeiba.json";
 import Tea from "../tea.json";
 import Chips from "../chips.json";
 import Biscuit from "../biscuit.json";
+import { useEffect } from "react";
 
 import { useParams } from "react-router-dom";
 
 const AbuHeiba = () => {
   const { id } = useParams();
-  console.log(id);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   let menuProducts;
 

@@ -1,4 +1,3 @@
-import React from "react";
 import "./findUsStyle.css";
 import NavBar from "../NavBar/NavBar";
 import UpBtn from "../UpBtn/UpBtn";
@@ -10,8 +9,12 @@ import store3 from "../imgs/store3.jpg";
 import store4 from "../imgs/store4.jpg";
 import store5 from "../imgs/store5.jpg";
 import logo from "../imgs/logo2.png";
+import { useEffect } from "react";
 
 const FindUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const storesData = [
     {
       img: store1,
