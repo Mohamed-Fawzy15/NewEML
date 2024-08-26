@@ -1,0 +1,49 @@
+.info-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* height: 50px; */
+  align-items: center;
+  padding-bottom: 0;
+  width: 100%;
+  /* gap: 500px; */
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+.Gif {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+
+.phone h3 {
+  margin-left: 2px;
+  color: #000047;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.mail h3 {
+  margin-left: 2px;
+  color: #000047;
+}
+
+@media screen and (max-width: 960px) {
+  .info-header {
+    font-size: 15px;
+    gap: 20px;
+  }
+  .Gif {
+    padding-right: 5px;
+  }
+}

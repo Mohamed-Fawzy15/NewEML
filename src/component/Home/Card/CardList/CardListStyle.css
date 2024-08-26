@@ -1,0 +1,13 @@
+.cardHolder {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+}

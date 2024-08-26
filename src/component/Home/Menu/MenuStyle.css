@@ -1,0 +1,96 @@
+.menuHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 50px;
+  /* margin-left: 200px; */
+}
+
+.menuHolder h1 {
+  color: #000047;
+  padding: 20px;
+}
+
+.productImg {
+  width: 250px;
+  height: 250px;
+}
+
+.menuContainer {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.menuCard {
+  width: 250px;
+  height: 490px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1.5px solid var(--neutral-03, #dbdfd0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.menuCard:hover {
+  background-color: #000047;
+  color: white;
+}
+
+.menuCard:hover button {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  transition: 0.6s;
+  border: 1px solid white;
+}
+
+.menuCard:hover img {
+  transform: scale(1.2);
+}
+.menuCard button {
+  color: #000047;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #000047;
+  border-radius: 20px;
+  width: 180px;
+  height: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.menuCard h3 {
+  color: #000047;
+}
+
+.menuCard:hover h3 {
+  color: white;
+}
+
+.menuCard p {
+  color: #000047;
+}
+
+.menuCard:hover p {
+  color: white;
+}
