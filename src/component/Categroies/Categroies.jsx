@@ -8,10 +8,14 @@ import product from "../imgs/abuheiba.png";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import "animate.css";
+import { useRef } from "react";
+import { useIsVisible } from "react-is-visible";
 
 const Categroies = () => {
   const navigate = useNavigate();
-
+  const nodeRef = useRef(null);
+  const isVisible = useIsVisible(nodeRef);
+  console.log(isVisible);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -173,6 +177,17 @@ const Categroies = () => {
       ],
     },
   ];
+
+  useEffect(() => {
+    if (isVisible) {
+      nodeRef.current.classList.remove(
+        "animate__animated",
+        "animate__backInDown"
+      );
+      void nodeRef.current.offsetWidth; // Trigger reflow
+      nodeRef.current.classList.add("animate__animated", "animate__backInDown");
+    }
+  }, [isVisible]);
   return (
     <div className="categories">
       <Information />
@@ -183,7 +198,7 @@ const Categroies = () => {
             <img
               src={c.logo}
               alt=""
-              className="category-logo animate__animated animate__backInDown"
+              className="category-logo animate__animated animate__bounceInLeft"
             />
             <h1>{c.catName}</h1>
             <div className="category-product">
