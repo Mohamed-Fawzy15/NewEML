@@ -28,18 +28,15 @@
 
 .companyLogo {
   width: 350px;
-  height: 350px;
 }
 .companyImg {
   width: 350px;
-  height: 300px;
 }
 
 .product-holder {
-  width: 100%;
-  height: 95%;
-  display: flex;
-  /* grid-template-columns: repeat(4, 1fr); */
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -50,7 +47,6 @@
 
 .productCard {
   width: 250px;
-  height: 490px;
   flex-shrink: 0;
   border-radius: 12px;
   border: 1.5px solid var(--neutral-03, #dbdfd0);
@@ -65,12 +61,12 @@
 
 .pro-img {
   width: 250px;
-  height: 250px;
 }
 .productInfo {
   color: #000047;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
+  margin-bottom: 20px;
 }
 
 .productCard:hover {
