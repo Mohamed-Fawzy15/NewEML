@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "categories": "Spices",
+      "pro": [
+        {
+          "id": 1,
+          "img": "/Imgs/maggi/maggi-chiken.webp",
+          "name": "Maggi chicken"
+        },
+        {
+          "id": 2,
+          "img": "/Imgs/maggi/maggi-kubDuo.webp",
+          "name": "Maggi KubDuo"
+        },
+        {
+          "id": 3,
+          "img": "/Imgs/maggi/maggi-meat.webp",
+          "name": "Maggi Meat"
+        },
+        {
+          "id": 4,
+          "img": "/Imgs/maggi/maggi-vegtabels.webp",
+          "name": "Maggi vegetables"
+        },
+        {
+          "id": 5,
+          "img": "/Imgs/maggi/maggi-volaille.webp",
+          "name": "Maggi Volaille"
+        },
+        {
+            "id": 6,
+            "img": "/Imgs/maggi/spysi-beefBurger.webp",
+            "name": "Spysi Beaf Burger"
+        },
+        {
+            "id": 7,
+            "img": "/Imgs/maggi/spysi-buffaloWings.webp",
+            "name": "Spysi Buffalo Wings"
+        },
+        {
+            "id": 8,
+            "img": "/Imgs/maggi/spysi-grilledChicken.webp",
+            "name": "Spysi Grilled Chicken"
+        },
+        {
+            "id": 9,
+            "img": "/Imgs/maggi/spysi-hawawshi.webp",
+            "name": "Spysi Hawawshi"
+        },
+        {
+            "id":10,
+            "img": "/Imgs/maggi/spysi-honeyBBQ.webp",
+            "name": "Spysi Honey BBQ"
+        },
+        {
+            "id": 11,
+            "img": "/Imgs/maggi/spysi-indianChicken.webp",
+            "name": "Spysi Indian Chicken"
+        },
+        {
+            "id": 12,
+            "img": "/Imgs/maggi/spysi-kofta.webp",
+            "name": "Spysi Kofta"
+        },
+        {
+            "id": 13,
+            "img": "/Imgs/maggi/spysi-shawerma.webp",
+            "name": "Spysi Shawerma"
+        },
+        {
+            "id": 14,
+            "img": "/Imgs/maggi//spysi-shishTawook.webp",
+            "name": "Spysi shish Tawook"
+        }
+      ]
+    }
+  ]
+  

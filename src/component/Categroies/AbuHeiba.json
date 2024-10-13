@@ -2,66 +2,67 @@
   {
     "id": 1,
     "categories": "Abu Heiba",
-    "image": "/Imgs/abuheiba/logo.png",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, consectetur, autem laboriosam magnam inventore enim placeat, vel perferendis ipsam adipisci ea hic itaque tempore dignissimos alias! Necessitatibus corrupti veniam voluptas.",
-    "images": "/Imgs/abuheiba/products.png",
     "pro": [
       {
         "id": 1,
-        "img": "/Imgs/abuheiba/abuheiba.png",
-        "name": "Carob",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/abuheiba/blackeyedpeas.webp",
+        "name": "Black Eyed Peas"
       },
       {
         "id": 2,
-        "img": "/Imgs/abuheiba/abuheiba.png",
-        "name": "Cocktail",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/abuheiba/brownlentils.webp",
+        "name": "Brown Lentils"
       },
       {
         "id": 3,
-        "img": "/Imgs/abuheiba/abuheiba.png",
-        "name": "Doum",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/abuheiba/chickpeas.webp",
+        "name": "Chickpeas"
       },
       {
         "id": 4,
-        "img": "/Imgs/abuheiba/abuheiba.png",
-        "name": "Guava",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/abuheiba/egyptianrice.webp",
+        "name": "Egyptian Rice"
       },
       {
         "id": 5,
-        "img": "/Imgs/abuheiba/abuheiba.png",
-        "name": "Hibiscus",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/abuheiba/favabeans.webp",
+        "name": "Fava Beans"
       },
       {
         "id": 6,
-        "img": "/Imgs/abuheiba/abuheiba.png",
-        "name": "Mango",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/abuheiba/jasmenrice.webp",
+        "name": "Jasmen Rice"
       },
       {
         "id": 7,
-        "img": "/Imgs/abuheiba/abuheiba.png",
-        "name": "Mint Lemon",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/abuheiba/popcorn.webp",
+        "name": "Popcorn"
       },
       {
         "id": 8,
-        "img": "/Imgs/abuheiba/abuheiba.png",
-        "name": "Tamarind",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
-      }
+        "img": "/Imgs/abuheiba/spliredbeans.webp",
+        "name": "Splired Beans"
+      },
+      {
+        "id": 9,
+        "img": "/Imgs/abuheiba/vermicellipasta.webp",
+        "name": "Vermicelli Pasta"
+      },
+      {
+        "id": 10,
+        "img": "/Imgs/abuheiba/whitebeans.webp",
+        "name": "Whitebeans"
+      },
+      {
+        "id": 11,
+        "img": "/Imgs/abuheiba/wholeredlentils.webp",
+        "name": "Whole Red Lentils"
+      },
+      {
+        "id": 12,
+        "img": "/Imgs/abuheiba/favabeansCan.webp",
+        "name": "Fava Beans Can"
+      } 
     ]
   }
 ]

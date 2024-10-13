@@ -10,13 +10,13 @@ const Information = () => {
       <div className="phone">
         {/* <FaPhoneAlt /> */}
         <img src={phoneGif} alt="" className="Gif" />
-        <h3>+18 889 630 111</h3>
+        <h3>+1-347-435-5225</h3>
       </div>
 
       <div className="mail">
         {/* <MdEmail /> */}
         <img src={emailGif} alt="" className="Gif" />
-        <h3>Info@EML.com</h3>
+        <h3>Info@EMLexport.com</h3>
       </div>
     </div>
   );

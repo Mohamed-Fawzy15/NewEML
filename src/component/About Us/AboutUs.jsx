@@ -2,11 +2,13 @@ import "./AboutUsStyle.css";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import Information from "../Information/Information";
-import vision from "../imgs/vision.png";
-import aboutImage from "../imgs/products.png";
 import UpBtn from "../UpBtn/UpBtn";
 import premium from "../imgs/logo2.png";
 import { useEffect } from "react";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
 
 const AboutUs = () => {
   const premiumData = [
@@ -41,30 +43,59 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="aboutUs-data">
-          <div>
-            <img src={aboutImage} alt="" className="aboutImg" />
-          </div>
-          <div className="about-info">
-            <h1>We provide you and your family with diffirent type of food</h1>
-            <p>
-              The Idea of starting EML was born while observing how the world is
-              going by in such a fast pace, our days are being shorten by our
-              hectic schedules starting from work, school, running errands and
-              doing laundry to getting gas; by the time we get home, we barely
-              have the energy to stand in the kitchen and prepare a healthy
-              nutritious meal starting from scratch. In order to save you time
-              in the kitchen and allow you to spend more time with your family
-              enjoying the cuisine and less time cooking it, we came up with the
-              idea of EML to assist you by providing you with the basic
-              fundamentals of all healthy yummy meals!
-            </p>
+      <div className="founderBio">
+        <div className="container">
+          <div className="founder-data">
+            <div class="founder">
+              <div class="founder-photo">
+                <img
+                  src="/eng-mostafa.jpeg"
+                  alt="an image for myslef"
+                  class="founder-img"
+                />
+
+                <div class="founder-social">
+                  <div class="founder-links">
+                    <a href="#">
+                      <FaFacebook className="founder-icon" />
+                    </a>
+                    <a href="#">
+                      <FaInstagramSquare className="founder-icon" />
+                    </a>
+                    <a href="#">
+                      <FaLinkedin className="founder-icon" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="founder-info">
+              <h2>Founder Bio</h2>
+              <p>
+                Mostafa Lamei is an Egyptian American entrepreneur with a robust
+                engineering background and a passion for the global food market.
+                After earning his degree in engineering, he pivoted to the
+                export and import industry, where he has built a reputation for
+                excellence in sourcing and distributing high-quality food
+                products. With a keen eye for market trends and a commitment to
+                sustainability, Mostafa Lamei has successfully bridged cultural
+                and culinary gaps, bringing authentic flavors from the Middle
+                East to diverse markets. His journey reflects a blend of
+                innovation and tradition, positioning him as a leading figure in
+                the food trade.
+              </p>
+            </div>
           </div>
         </div>
-        <div className="aboutUs-data">
-          <div className="about-info">
-            <h1>Vision and Mission</h1>
+      </div>
+
+      <div className="vision">
+        <div className="container">
+          <div className="vision-info">
+            <h1 className="vision-header">
+              <FaEye className="vision-icon" />
+              <span>Vision and Mission</span>
+            </h1>
             <p>
               We refuse to stop trying to make things better for you; We
               collaborate closely with our suppliers to create goods that meet
@@ -76,9 +107,6 @@ const AboutUs = () => {
               ensure the quality and safety of our product line inorder to
               guarantee both the satisfaction and health of our customers
             </p>
-          </div>
-          <div>
-            <img src={vision} alt="" className="aboutImg" />
           </div>
         </div>
       </div>

@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "categories": "Pasta",
+      "pro": [
+        {
+          "id": 1,
+          "img": "/Imgs/regina/lametna-penne.webp",
+          "name": "Penne"
+        },
+        {
+          "id": 2,
+          "img": "/Imgs/regina/lametna-rice.webp",
+          "name": "Rice"
+        },
+        {
+          "id": 3,
+          "img": "/Imgs/regina/lametna-RIngs.webp",
+          "name": "Rings"
+        },
+        {
+          "id": 4,
+          "img": "/Imgs/regina/lametna-smallRings.webp",
+          "name": "Small Rings"
+        },
+        {
+          "id": 5,
+          "img": "/Imgs/regina/lametna-spaghetti.webp",
+          "name": "Spaghetti"
+        },
+        {
+          "id": 6,
+          "img": "/Imgs/regina/lametna-vermicelli.webp",
+          "name": "Vermicelli"
+        }
+      ]
+    }
+  ]
+  

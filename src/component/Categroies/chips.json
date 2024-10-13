@@ -2,66 +2,28 @@
   {
     "id": 1,
     "categories": "Chips",
-    "image": "/Imgs/chips/logo2.png",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, consectetur, autem laboriosam magnam inventore enim placeat, vel perferendis ipsam adipisci ea hic itaque tempore dignissimos alias! Necessitatibus corrupti veniam voluptas.",
-    "images": "/Imgs/chips/chips bags.png",
     "pro": [
       {
         "id": 1,
-        "img": "/Imgs/chips/chips.png",
-        "name": "Chips",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/chips/cheese.webp",
+        "name": "Cheese"
       },
       {
         "id": 2,
-        "img": "/Imgs/chips/chips.png",
-        "name": "Chips",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/chips/kebabback.webp",
+        "name": "Kebabback"
       },
       {
         "id": 3,
-        "img": "/Imgs/chips/chips.png",
-        "name": "Chips",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/chips/Sweet chili.webp",
+        "name": "Sweet Chili"
       },
       {
         "id": 4,
-        "img": "/Imgs/chips/chips.png",
-        "name": "Chips",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
-      },
-      {
-        "id": 5,
-        "img": "/Imgs/chips/chips.png",
-        "name": "Chips",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
-      },
-      {
-        "id": 6,
-        "img": "/Imgs/chips/chips.png",
-        "name": "Chips",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
-      },
-      {
-        "id": 7,
-        "img": "/Imgs/chips/chips.png",
-        "name": "Chips",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
-      },
-      {
-        "id": 8,
-        "img": "/Imgs/chips/chips.png",
-        "name": "Chips",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/chips/tomato.webp",
+        "name": "Tomato"
       }
+     
     ]
   }
 ]

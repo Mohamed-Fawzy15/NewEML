@@ -1,0 +1,70 @@
+[
+    {
+      "id": 1,
+      "categories": "juices",
+      "pro": [
+        {
+          "id": 1,
+          "img": "/Imgs/juices/almarai-apple.webp",
+          "name": "Apple 1L"
+        },
+        {
+          "id": 2,
+          "img": "/Imgs/juices/almarai-applesmall.webp",
+          "name": "Apple 235ML"
+        },
+        {
+          "id": 3,
+          "img": "/Imgs/juices/almarai-guavaSmall.png",
+          "name": "Guava 235ML"
+        },
+        {
+          "id": 4,
+          "img": "/Imgs/juices/almarai-guavaNew.webp",
+          "name": "Guava 1L"
+        },
+        {
+          "id": 5,
+          "img": "/Imgs/juices/almarai-mangoNew.webp",
+          "name": "Mango 1L"
+        },
+        {
+          "id": 6,
+          "img": "/Imgs/juices/almarai-mangosmall.webp",
+          "name": "Mango 235ML"
+        },
+        {
+          "id": 7,
+          "img": "/Imgs/juices/fayrouz-apple.webp",
+          "name": "Apple"
+        },
+        {
+          "id": 8,
+          "img": "/Imgs/juices/fayrouz-pineapple.webp",
+          "name": "pineapple"
+        },
+        {
+            "id": 9,
+            "img": "/Imgs/juices/fayrouz-roman.webp",
+            "name": "Pomegranate"
+        },
+        {
+            "id": 10,
+            "img": "/Imgs/juices/schweppes-goldPineapple.webp",
+            "name": "Pineapple Gold"
+        },
+        {
+            "id": 11,
+            "img": "/Imgs/juices/schweppes-lemonMint.webp",
+            "name": "lemon Mint"
+        }
+        ,
+        {
+            "id": 12,
+            "img": "/Imgs/juices/schweppes-pomgranate.webp",
+            "name": "Pomegranate"
+        }
+      ]
+    }
+  ]
+  

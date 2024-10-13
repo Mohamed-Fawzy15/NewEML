@@ -4,11 +4,15 @@ import NavBar from "../../NavBar/NavBar";
 import UpBtn from "../../UpBtn/UpBtn";
 import Footer from "../../Footer/Footer";
 import Abuheiba from "../AbuHeiba.json";
-import Tea from "../tea.json";
+import Pasta from "../pasta.json";
 import Chips from "../chips.json";
 import Biscuit from "../biscuit.json";
+import Juices from "../juices.json";
+import Cheese from "../cheese.json";
+import Spices from "../spices.json";
+import middleDesert from "../MED.json";
 import { useEffect } from "react";
-
+import "animate.css";
 import { useParams } from "react-router-dom";
 
 const AbuHeiba = () => {
@@ -23,12 +27,20 @@ const AbuHeiba = () => {
   if (id === "1") {
     menuProducts = Abuheiba;
   } else if (id === "2") {
-    menuProducts = Tea;
+    menuProducts = Juices;
   } else if (id === "3") {
     menuProducts = Chips;
   } else if (id === "4") {
+    menuProducts = Pasta;
+  } else if (id === "5") {
     menuProducts = Biscuit;
-  } else if (!id) {
+  } else if (id === "6") {
+    menuProducts = Cheese;
+  } else if (id === "7") {
+    menuProducts = Spices;
+  } else if (id === "8") {
+    menuProducts = middleDesert;
+  }else if (!id) {
     menuProducts("/about");
   }
 
@@ -38,18 +50,9 @@ const AbuHeiba = () => {
       <NavBar />
       {menuProducts.map((p) => (
         <div className="company-info" key={p.id}>
-          <div className="company-header">
-            <div>
-              <img src={p.image} alt="Company Logo" className="companyLogo" />
-            </div>
             <div className="companyData">
               <h1 className="companyDesc">{p.categories}</h1>
-              <p className="companyDesc">{p.desc}</p>
             </div>
-          </div>
-          {/* <div>
-            <img src={p.images} alt="Products" className="companyImg" />
-          </div> */}
         </div>
       ))}
 
@@ -57,10 +60,8 @@ const AbuHeiba = () => {
         {menuProducts.map((product) =>
           product.pro.map((proItem) => (
             <div className="productCard" key={proItem.id}>
-              <img src={proItem.img} alt={proItem.name} className="pro-img" />
+              <img src={proItem.img} alt={proItem.name} className="pro-img animate__animated animate__rubberBand" />
               <h3 className="productInfo">{proItem.name}</h3>
-              <h3 className="productInfo">{proItem.price}</h3>
-              <p className="productInfo">{proItem.desc}</p>
             </div>
           ))
         )}

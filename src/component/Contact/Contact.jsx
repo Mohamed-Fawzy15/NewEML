@@ -40,7 +40,7 @@ function ContactUs() {
                     <FaPhoneVolume className="contactInfo-icon" />
                     <div className="contactInfo-header">
                       <h4>Phone Number</h4>
-                      <p>+18 889 630 111</p>
+                      <p>+1-347-435-5225</p>
                     </div>
                   </div>
 
@@ -48,7 +48,7 @@ function ContactUs() {
                     <MdEmail className="contactInfo-icon" />
                     <div className="contactInfo-header">
                       <h4>Email Address</h4>
-                      <p>Info@EML.com</p>
+                      <p>Info@EMLexport.com</p>
                     </div>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ function ContactUs() {
                   <IoLocation className="contactInfo-icon" />
                   <div className="contactInfo-header">
                     <h4>Address</h4>
-                    <p>Info@EML.com</p>
+                    <p>9 Bay 50th St, Brooklyn, NY 11214, USA</p>
                   </div>
                 </div>
               </div>
@@ -88,6 +88,15 @@ function ContactUs() {
 
               <button className="contact-btn">Send</button>
             </form>
+          </div>
+          <div className="contact-map">
+            <div className="container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.8855206681687!2d-73.98647372431218!3d40.58828227141248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c245ad387a2f9b%3A0xd396b1779adfaf9c!2s9%20Bay%2050th%20St%2C%20Brooklyn%2C%20NY%2011214%2C%20USA!5e0!3m2!1sen!2seg!4v1727853707112!5m2!1sen!2seg"
+                height="500"
+                loading="lazy"
+              ></iframe>
+            </div>
           </div>
 
           <Footer />

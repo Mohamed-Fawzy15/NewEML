@@ -1,66 +1,67 @@
 [
   {
     "id": 1,
-    "categories": "Tea",
-    "image": "/Imgs/biscuit/logo2.png",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, consectetur, autem laboriosam magnam inventore enim placeat, vel perferendis ipsam adipisci ea hic itaque tempore dignissimos alias! Necessitatibus corrupti veniam voluptas.",
-    "images": "/Imgs/biscuit/buscuits bags.png",
+    "categories": "Biscuit",
     "pro": [
       {
         "id": 1,
-        "img": "/Imgs/biscuit/biscuit.png",
-        "name": "Biscuit",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/biscuit/elshamadan-bisco.webp",
+        "name": "Bisco Misr Wafers"
       },
       {
         "id": 2,
-        "img": "/Imgs/biscuit/biscuit.png",
-        "name": "Biscuit",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/biscuit/elshamadan-biscoWafers.webp",
+        "name": "Wafers With Vanilla Cream"
       },
       {
         "id": 3,
-        "img": "/Imgs/biscuit/biscuit.png",
-        "name": "Biscuit",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/biscuit/elshamadan-biscoWhite.webp",
+        "name": "Bisco Wafers"
       },
       {
         "id": 4,
-        "img": "/Imgs/biscuit/biscuit.png",
-        "name": "Biscuit",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/biscuit/elshamadan-choco.webp",
+        "name": "Elshamadan Chocolate"
       },
       {
         "id": 5,
-        "img": "/Imgs/biscuit/biscuit.png",
-        "name": "Biscuit",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/biscuit/elshamadan-katakito.webp",
+        "name": "Katakito"
       },
       {
         "id": 6,
-        "img": "/Imgs/biscuit/biscuit.png",
-        "name": "Biscuit",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/biscuit/elshamadan-mega.webp",
+        "name": "Elshamadan Mega"
       },
       {
         "id": 7,
-        "img": "/Imgs/biscuit/biscuit.png",
-        "name": "Biscuit",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/biscuit/elshamadan-whiteChoco.webp",
+        "name": "Elshamadan White Chocolate"
       },
       {
         "id": 8,
-        "img": "/Imgs/biscuit/biscuit.png",
-        "name": "Biscuit",
-        "price": "99.99$",
-        "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+        "img": "/Imgs/biscuit/ulker-9kattat.webp",
+        "name": "Ulker 9 Kat tat"
+      },
+      {
+        "id": 9,
+        "img": "/Imgs/biscuit/ulker-choco.webp",
+        "name": "Ulker Chocolate"
+      },
+      {
+        "id": 10,
+        "img": "/Imgs/biscuit/ulker-hazelnut.webp",
+        "name": "Ulker Hazelnut"
+      },
+      {
+        "id": 11,
+        "img": "/Imgs/biscuit/ulker-strawberry.webp",
+        "name": "Ulker Strawberry"
+      },
+      {
+        "id":12,
+        "img": "/Imgs/biscuit/ulker-wafer.webp",
+        "name": "Ulker Wafer"
       }
     ]
   }
